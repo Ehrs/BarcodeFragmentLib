@@ -188,8 +188,7 @@ public class BarCodeFragment extends Fragment implements
 			mHandler.post(new Runnable() {
 				@Override
 				public void run() {
-					MessageDialogs dialogs = new MessageDialogs(
-							BarCodeFragment.this, 0);
+					MessageDialogs dialogs = new MessageDialogs();
 					dialogs.show(getFragmentManager(), TAG);
 					stopCameraCapture();
 				}

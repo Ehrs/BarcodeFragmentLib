@@ -5,6 +5,7 @@
     android:orientation="vertical" >
 
     <fragment
+        android:id="@+id/barcode_fragment"
         android:name="com.abhi.barcode.fragment.library.BarCodeFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
